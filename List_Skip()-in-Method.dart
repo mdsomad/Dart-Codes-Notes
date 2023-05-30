@@ -1,12 +1,6 @@
+void main(){
 
-# Dart language 
-
-
-### List skip Method explained
-
-```sh
-
-List<int> numList = [44,32,56,22,65,34,31];
+  List<int> numList = [44,32,56,22,65,34,31];
   
   //* Provide skip Index
   List<int> filterList = numList.skip(2).toList();
@@ -20,4 +14,4 @@ List<int> numList = [44,32,56,22,65,34,31];
 
   //* filterList2 Result this --> [31]
 
-  ```
+}
