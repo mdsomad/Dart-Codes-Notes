@@ -2,24 +2,24 @@
 # Dart language 
 
 
-removeLast
-Removes and returns the last object in this list
+removeAt
+Removes the object at position index from this list.
 
-### List removeLast() Method explained
+
+### List removeAt() Method explained
 
 ```sh
   
-  List<int> numList = [1,2,3,4,5];
+   List<int> numList = [1,2,3,4,5,6,7,8];
   
-  //*  only removeLast element 
-  numList.removeLast();
+  //* provide Remove element index 
+  numList.removeAt(3);
  
   
   print(numList); 
 
-
   
-  //* Only RemoveLast element Result
-  //* numList Result this --> [1, 2, 3, 4]
+  //* 4 elements removed
+  //* numList Result this --> [1, 2, 3, 5, 6, 7, 8]
 
   ```
