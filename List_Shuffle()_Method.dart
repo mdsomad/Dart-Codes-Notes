@@ -2,15 +2,17 @@ void main(){
 
   List<int> numList = [1,2,3,4,5,6,7,8,9];
   
-  //*  Random shuffle list
-  numList.shuffle();
+  //*  only single element return
+  int result = numList.singleWhere((element) => element > 5 && element <7 ,);
+  int result2 = numList.singleWhere((element) => element == 4);
   
-  print(numList); 
+  print(result); 
+  print(result2); 
 
   
-  //* Random data list show
-  //* numList Result this --> [3, 9, 4, 7, 1, 6, 8, 5, 2]   call 1
-  //* numList Result this --> [1, 8, 5, 9, 4, 3, 2, 7, 6]   call 2
-  //* numList Result this --> [7, 6, 1, 5, 9, 8, 3, 4, 2]   call 2
+  //* only single element return
+  //* numList Result this --> 6
+  //* numList2 Result this --> 4
+
 
 }
