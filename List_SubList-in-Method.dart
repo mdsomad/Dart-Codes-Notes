@@ -1,12 +1,6 @@
+void main(){
 
-# Dart language 
-
-
-List sublist Method explained
-
-```sh
-
- List<int> numList = [1,2,3,4,5,6,7,8,9,10];
+  List<int> numList = [1,2,3,4,5,6,7,8,9,10];
   
   //* Value Enter Sarted Index Or End Index
   List<int> filterList = numList.sublist(2,8);
@@ -28,5 +22,5 @@ List sublist Method explained
   //* filterList2 Result this -->[3, 4, 5, 6, 7, 8, 9, 10]
 
   //* filterList3 Result this -->[]
-
-  ```
+  
+}
