@@ -1,27 +1,31 @@
 
 # Dart language 
 
-reduce
+### replaceRange
 
-Reduces a collection to a single value by iteratively
-combining elements of the collection using the
-provided function.
+
+Replaces a range of elements with the elements of
+replacements. Removes the objects in the range
+from start to end, then inserts the elements of
+replacements at start.
+
+
 
 
 ### List removeAt() Method explained
 
 ```sh
 
-  List<int> salaryList = [10000,15000,20000,25000];
+final numList = [1,2,3,4,5,6,7,8,9,10];
+
+final newList = [11,22,55,85];
   
-   //* insanely value ka value hai = 0
-   final totalSalary = salaryList.reduce((value, element) => value+element,);
- 
+//* provide Start index or End index;
+numList.replaceRange(1,5,newList);
   
-   print(totalSalary); 
+print(numList); 
 
  
-
-  //* totalSalary Result 1 this --> 70000
+//* numList Result 1 this --> [1, 11, 22, 55, 85, 6, 7, 8, 9, 10]
 
   ```
