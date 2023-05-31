@@ -12,7 +12,7 @@ replacements at start.
 
 
 
-### List removeAt() Method explained
+### List replaceRange() Method explained
 
 ```sh
 
