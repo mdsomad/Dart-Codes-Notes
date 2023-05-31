@@ -1,17 +1,4 @@
-
-# Dart language 
-
-
- ### insert
-
-
-Inserts element at position index in this list.
-
-
-
-### List insert() Method explained
-
-```sh
+void main(){
 
 var numList = [1,2,3,4,5];
 
@@ -24,5 +11,9 @@ print(numList);
 
  
 //* numList result this --> [1, 2, 100, 3, 4, 5]
+ 
 
-  ```
+
+
+
+}
