@@ -22,6 +22,6 @@ print(result);
 
 
  
-//* result this --> 
+//* result this --> 4
 
   ```
