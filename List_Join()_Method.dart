@@ -1,18 +1,6 @@
+void main(){
 
-# Dart language 
-
-
- ### Join
-
-Converts each element to a String and
-concatenates the strings.
-
-
-
-### List Join() Method explained
-
-```sh
- var numList = [10,20,30,40,50,60,70];
+var numList = [10,20,30,40,50,60,70];
 
  String result = numList.join();
  String result2 = numList.join(' ');
@@ -28,6 +16,9 @@ print(result3);
 //* result this Value --> 10203040506070
 //* result2 this Value --> 10 20 30 40 50 60 70
 //* result3 this Value --> 10+ 20+ 30+ 40+ 50+ 60+ 70
+ 
 
 
-  ```
+
+
+}
