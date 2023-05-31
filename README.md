@@ -8,7 +8,7 @@ combining elements of the collection using the
 provided function.
 
 
-### List removeAt() Method explained
+### List reduce() Method explained
 
 ```sh
 
