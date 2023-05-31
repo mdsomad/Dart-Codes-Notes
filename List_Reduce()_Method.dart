@@ -1,16 +1,4 @@
-
-# Dart language 
-
-reduce
-
-Reduces a collection to a single value by iteratively
-combining elements of the collection using the
-provided function.
-
-
-### List removeAt() Method explained
-
-```sh
+void main(){
 
   List<int> salaryList = [10000,15000,20000,25000];
   
@@ -24,4 +12,6 @@ provided function.
 
   //* totalSalary Result 1 this --> 70000
 
-  ```
+
+
+}
