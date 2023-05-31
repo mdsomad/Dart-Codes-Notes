@@ -1,16 +1,5 @@
+void main(){
 
-# Dart language 
-
-
- ### indexWhere
-
-
-The first index in the list satisfies the provided
-
-
-### List indexWhere() Method explained
-
-```sh
 var nameList = ['Somad','Akif','Subhan'];
 
 
@@ -22,5 +11,9 @@ print(result);
 
  
 //* result this --> 0
+ 
 
-  ```
+
+
+
+}
