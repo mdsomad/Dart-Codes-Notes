@@ -1,18 +1,4 @@
-
-# Dart language 
-
-<!-- ### retainWhere
-
-
-Removes all objects from a list that fail to satisfy
-the test. -->
-
-
-
-
-### List lastWhere() Method explained
-
-```sh
+void main(){
 
 final numList = [10,20,30,40,50,60,70,80];
 
@@ -29,4 +15,6 @@ final numList = [10,20,30,40,50,60,70,80];
  //* result Result  this --> 80
  //* result Result 2 this --> 40
 
-  ```
+
+
+}
