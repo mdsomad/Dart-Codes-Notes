@@ -1,17 +1,4 @@
-
-# Dart language 
-
-
- ### elementAt
-
-
-elementAt method returns the indexth element.
-
-
-
-### List ElementAt() Method explained
-
-```sh
+void main(){
 
 List numList = [4,2,6,4,5,6,70,55,90];
 
@@ -26,4 +13,7 @@ print(result2);
  //* Result Result  this --> 6
  //* Result Result  this --> 90
 
-  ```
+
+
+
+}
