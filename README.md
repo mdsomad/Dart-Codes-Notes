@@ -2,26 +2,26 @@
 # Dart language 
 
 
- ### getRange
+ ### indexOf
 
 
-Returns the first element that satisfies
-the given predicate test.
+Searches the list from index start to the end of
+the list.
 
 
-
-### List getRange() Method explained
+### List indexOf() Method explained
 
 ```sh
-List numList = [1,2,3,4,5,6,7,8,9,10];
+List numList = [20,40,30,5,60,7,80,9,10];
 
-var subList = numList.getRange(2,8);
+// List Value Index Find
+var result = numList.indexOf(60);
 
 
-print(subList);
+print(result);
 
 
  
- //* subList Result  this --> (3, 4, 5, 6, 7, 8)
+//* result this --> 
 
   ```
