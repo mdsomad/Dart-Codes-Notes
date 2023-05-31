@@ -1,19 +1,4 @@
-
-# Dart language 
-
-
- ### lastlndexWhere
-
-
-The last index in the list that satisfies the provided
-test.
-
-
-
-
-### List lastIndexWhere() Method explained
-
-```sh
+void main(){
 
 List numList = [10,20,30,40,50,60,70,80];
 
@@ -30,4 +15,6 @@ List numList = [10,20,30,40,50,60,70,80];
  //* result Result  this --> 7
  //* result Result 2 this --> 0
 
-  ```
+
+
+}
