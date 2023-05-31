@@ -6,7 +6,7 @@ removeWhere
 Removes all objects from this list that satisfy the test.
 
 
-### List removeAt() Method explained
+### List removeWhere() Method explained
 
 ```sh
 
