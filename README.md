@@ -2,32 +2,27 @@
 # Dart language 
 
 
- ### lastlndexWhere
+ ### lastlndexOf
 
 
-The last index in the list that satisfies the provided
-test.
+The starting position of the last match pattern in
+this string. Finds a match of pattern by searching
+backward starting at start.
 
 
 
-
-### List lastIndexWhere() Method explained
+### List lastlndexOf() Method explained
 
 ```sh
 
-List numList = [10,20,30,40,50,60,70,80];
+List numList = [4,2,6,4,5,6,7,4,9];
 
-  
+var index = numList.lastIndexOf(6,3);
 
- var result =  numList.lastIndexWhere((element) => element > 20);
- var result2 =  numList.lastIndexWhere((element) => element < 20);
-  
- print(result); 
- print(result2); 
+print(index);
 
 
  
- //* result Result  this --> 7
- //* result Result 2 this --> 0
+ //* index Result  this --> 2
 
   ```
