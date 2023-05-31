@@ -2,14 +2,15 @@
 # Dart language 
 
 
- ### elementAt
+ ### firstWhere
 
 
-elementAt method returns the indexth element.
+Returns the first element that satisfies
+the given predicate test.
 
 
 
-### List ElementAt() Method explained
+### List FirstWhere() Method explained
 
 ```sh
 
