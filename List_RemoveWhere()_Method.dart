@@ -1,14 +1,4 @@
-
-# Dart language 
-
-
-removeWhere
-Removes all objects from this list that satisfy the test.
-
-
-### List removeAt() Method explained
-
-```sh
+void main(){
 
   List<int> numList = [1,2,3,4,5,6,7,8];
   
@@ -27,4 +17,5 @@ Removes all objects from this list that satisfy the test.
   //* numList Result 1 this --> [3, 4, 5, 6, 7, 8]
   //* numList Result 2 this --> [3]
 
-  ```
+
+}
