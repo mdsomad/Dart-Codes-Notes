@@ -2,7 +2,7 @@
 # Dart language 
 
 
- ### firstWhere
+ ### getRange
 
 
 Returns the first element that satisfies
@@ -10,21 +10,18 @@ the given predicate test.
 
 
 
-### List FirstWhere() Method explained
+### List getRange() Method explained
 
 ```sh
+List numList = [1,2,3,4,5,6,7,8,9,10];
 
-List numList = [4,2,6,4,5,6,70,55,90];
+var subList = numList.getRange(2,8);
 
-var result = numList.elementAt(2);
-var result2 = numList.elementAt(8);
 
-print(result);
-print(result2);
+print(subList);
 
 
  
- //* Result Result  this --> 6
- //* Result Result  this --> 90
+ //* subList Result  this --> (3, 4, 5, 6, 7, 8)
 
   ```
